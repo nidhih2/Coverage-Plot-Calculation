@@ -10,9 +10,9 @@ Takes the minimum of calculated local minimum and plots on the sns.distplot grap
   
 # Example usage
 ## Input:
-- ATGCTAG
-- TGCTAGT
-- GCTAGTC
+ATGCTAG\n
+TGCTAGT\n
+GCTAGTC
 
 ## Output:
 Based on the chosen kmer_len,
