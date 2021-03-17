@@ -6,8 +6,8 @@ Calculates kmer-coverage plot and returns the number of kmers after removal of i
 python3 coverage_calc.py -reads <read file> -kmer_len <insert desired length of kmer> -plot_name <kmer-coverage plot name>
   
 # Arguments
-```-reads``` : Provide a read file
-```-kmer_len``` : Provide an integer value
+```-reads``` : Provide a read file\
+```-kmer_len``` : Provide an integer value\
 ```-kmer_len``` : Provide a name for the kmew-coverage plot
   
 # Assumption
