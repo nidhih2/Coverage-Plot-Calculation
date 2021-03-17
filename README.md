@@ -10,8 +10,8 @@ Takes the minimum of calculated local minimum and plots on the sns.distplot grap
   
 # Example usage
 ## Input:
-ATGCTAG\n
-TGCTAGT\n
+ATGCTAG\
+TGCTAGT\
 GCTAGTC
 
 ## Output:
