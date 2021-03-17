@@ -41,14 +41,17 @@ def plot_coverage(dict_kmer):
     """
     count_values = list(dict_kmer.values())
     count_log = np.log(count_values)
-
+    
+    #Subsetting between the error and true bars
     mask = (count_log >= 0) & (count_log <= 4)
 
     plt.subplots(figsize=(12,8))
     sns.distplot(count_log, bins='auto')
-
+    
+    #Calculates the local minima 
     minindices = signal.argrelextrema(count_log[mask], np.less)
     local_minima = count_log[mask][minindices]
+    #Subsetting to calculated minima between [0,1] 
     threshold = (local_minima > 0) & (local_minima < 1)
     cov_threshold.append(sorted(local_minima[threshold])[0])
 
