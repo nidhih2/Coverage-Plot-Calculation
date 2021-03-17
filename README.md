@@ -21,4 +21,6 @@ Based on the chosen kmer_len,
 3) Threshold value for removal of sequencing errors
 4) Total count of kmers after applying threshold value
 
+## Run time: Takes about 118 to 130s for a desired 31 to 101 kmer length
+
 
