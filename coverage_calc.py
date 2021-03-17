@@ -16,9 +16,11 @@ def get_kmers(k, string):
     Returns:
         dict: key:kmer, value:count
     """
+    #Replacing new-character with whitespace-character to seperate reads
     temp_reads = string.replace("\n", " ")
     end = len(temp_reads) - k + 1
     for start in range(0, end):
+        #Slicing window for generating kmers
         kmer = temp_reads[start:start + k]
         if kmer.isalpha():
             if kmer in kmer_dict:
