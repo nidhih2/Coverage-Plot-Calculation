@@ -3,7 +3,7 @@
 Calculates kmer-coverage plot and returns the number of kmers after removal of infrequent kmers using a calculated threshold value (local minimum). 
 
 # Syntax
-python3 coverage_calc.py -reads <<read file>> -kmer_len <insert desired length of kmer> -plot_name <kmer-coverage plot name>
+python3 coverage_calc.py -reads <read file> -kmer_len <insert desired length of kmer> -plot_name <kmer-coverage plot name>
   
 # Assumption
 Takes the minimum of calculated local minimum and plots on the sns.distplot graph
