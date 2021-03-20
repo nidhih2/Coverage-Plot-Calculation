@@ -27,6 +27,6 @@ Based on the chosen kmer_len,
 4) Total count of kmers after applying threshold value
 
 ## Run time: 
-Takes about 118 to 130s for a desired 31 to 101 kmer length
-
+Takes about 118 to 130s for a desired 31 to 101 kmer length.
+Used time module to estimate run time 
 
