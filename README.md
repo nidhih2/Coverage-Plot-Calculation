@@ -22,7 +22,7 @@ GCTAGTC
 ## Output:
 Based on the chosen kmer_len,
 1) Total count of kmers 
-2) kmer-coverage plot 
+2) kmer-coverage plot with threshold value (indicated by a vertical line)
 3) Threshold value for removal of sequencing errors
 4) Total count of kmers after applying threshold value
 
